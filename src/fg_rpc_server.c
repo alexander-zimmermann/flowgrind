@@ -33,6 +33,8 @@
 
 #include <sys/utsname.h>
 /* for log levels */
+#include <netinet/in.h>
+#include <arpa/inet.h>
 #include <syslog.h>
 
 #include "common.h"
